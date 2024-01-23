@@ -1,112 +1,127 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-.header {
-    width: 100%;
-    height: 100vh;
-    background-color:#C8C8C8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .side-nav {
-    width: 250px;
-    height: 100%;
-    background: #2f323a;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 20px 30px;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #2f323a;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 .side-nav a {
-    color: #C8C8C8;
-    text-decoration: none;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #c8c8c8;
+  display: block;
+}
+
+.side-nav a:hover {
+  color: #f1f1f1;
 }
 
 .side-nav a i {
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .logo {
-    display: block;
-    margin-bottom: 130px;
+  display: block;
+  margin-bottom: 130px;
 }
 
 .nav-links {
-    list-style: none;
-    position: relative;
+  list-style: none;
 }
 
 .nav-links li {
-    padding: 10px 0;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
+  padding: 10px 0;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-links li a {
-    color: #C8C8C8;
-    text-decoration: none;
-    padding: 10px 14px;
+  color: #c8c8c8;
+  text-decoration: none;
+  padding: 10px 14px;
 }
 
 .main {
-    margin-left: 250px;
-    padding: 20px;
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
 }
 
 .intro {
-    margin: 20px 0;
-    white-space: pre-line;
+  margin: 20px 0;
+  white-space: pre-line;
 }
 
 .intro h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .intro p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .skills {
-    margin: 20px 0;
-    white-space: pre-line;
+  margin: 20px 0;
+  white-space: pre-line;
 }
 
 .skills h2 {
-    font-size: 30px;
-    text-decoration: underline;
+  font-size: 30px;
+  text-decoration: underline;
 }
 
 .skill-items {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  font-size: 3rem;
 }
 
 .project-container {
-    margin: 20px 0;
-    white-space: pre-line;
+  margin: 20px 0;
+  white-space: pre-line;
 }
 
 .project-container h2 {
-    font-size: 30px;
-    text-decoration: underline;
+  font-size: 30px;
+  text-decoration: underline;
 }
 
 .project-container h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .project-container p {
-    font-size: 20px;
-    margin-left: 20px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info a i {
+  font-size: 30px;
+  margin: 10px 0;
+  color: #2f323a;
 }
